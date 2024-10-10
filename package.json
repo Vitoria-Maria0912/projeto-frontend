@@ -1,0 +1,30 @@
+{
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/jest": "^29.5.13",
+    "@types/node": "^22.7.5",
+    "@types/supertest": "^6.0.2",
+    "jest": "^29.7.0",
+    "prisma": "^5.20.0",
+    "supertest": "^7.0.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.20.0",
+    "bcryptjs": "^2.4.3",
+    "class-validator": "^0.14.1",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "name": "projeto-frontend",
+  "version": "1.0.0",
+  "description": "# Será possível visualizar quais as optativas existentes, seus pré-requisitos, o professor que a ministra (geralmente), a frequência que é ofertada (sempre ou as vezes) e os horários (é possível modificá-los)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
